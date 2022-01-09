@@ -7,9 +7,9 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage{hyperref}
+\usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-\usepackage{xcolor}
+
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -18,8 +18,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
@@ -37,30 +37,26 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[1]{
+\newcommand{\resumeItem}[2]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    \textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
-
-\newcommand{\resumeSubheadTwo}[2]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2
-    \end{tabular*}\vspace{-5pt}
-}
-
-\newcommand{\resumeSubhead}[3]{
-  \vspace{-1pt}\item
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\normalsize#3}
-    \end{tabular*}\vspace{-5pt}
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubheadTwo}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}\vspace{-10pt}
 }
 
-\newcommand{\link}[2]{{\color{blue}\href{#1}{#2}}}
-
-% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -77,106 +73,89 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\huge Le Tien Chien} & Email: chiendo97@gmail.com\\
-  & Mobile: +84 91 43 72 584
+  \textbf{\Huge Le Tien Chien} \\
+  Email : \href{mailto:chiendo97@gmail.com}{chiendo97@gmail.com} & Mobile : +84 914 376 126 \\
 \end{tabular*}
 
 
-%----------SUMMARY-----------------
-% \section{Summary}
-%   \resumeSubHeadingListStart
-%     \item[]
-%       \resumeItemListStart
-%         \resumeItem{Sofware Engineer of PaidAds team - Shopee Pte Ltd}
-%         % \resumeItem{Sofware Engineer of Search team – Tiki Corporation}
-%         \resumeItem{\textbf{First prize} of 2017 ACM/ICPC Hanoi Regional}
-%         \resumeItem{Third prize of VNOI for High School students}
-%         \resumeItem{Experience with Golang}
-%         \resumeItem{Competitive with C++}
-%       \resumeItemListEnd
-%   \resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Education \& Actitivies}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering and Technology}{Vietnam National University}
+      {Major: Computer Science}{Sep. 2015 -- Jan. 2020}
+    \resumeItemListStart
+       \resumeItem
+          {First prize of 2017 ACM/ICPC Hanoi Regional}{2015, 2018}
+    \resumeItemListEnd
+       \resumeItem
+          {Teaching Algorithms and Programming at High School.}{June. 2015, June. 2016}
+       \resumeItem
+          {Third prize of Vietnam National Olympiad in Informatics for High School students}{2014}
+  \resumeSubHeadingListEnd
+
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubhead
-      {Shopee Pte Ltd}{Feb. 2020 – Now}
-      {Sofware Engineer of PaidAds team}
+
+    \resumeSubheading
+      {Shopee Pte Ltd}{Singapore, Singapore}
+      {Software Engineer}{Feb. 2020 - Present}
       \resumeItemListStart
-        \resumeItem{Maintain a tracking system that handles 200k users event from all platforms using Kafka.}
-        \resumeItem{Maintain a deduction system that handles thousand of users clicks using Kafka and Mysql.}
-        \resumeItem{Maintain a Golang library that supports get/set data into internal Redis clusters, some highlight features: local-cache, circuit-breaker, load-balancing}
+        \resumeItem{Tracking system}
+          {Build a tracking system that handles 200k users event from all platforms using Kafka.}
+        \resumeItem{Deduction system}
+          {Build a deduction system that handles thousand of users clicks using Kafka and Mysql.}
+        \resumeItem{Cache Cloud Golang library}
+          {Build a Golang library that supports get/set data into internal Redis clusters, some highlight features: local-cache, circuit-breaker, load-balancing.}
+        \resumeItem{Language/Technology}
+          {Golang, MySql, Kafka \& Redis}
       \resumeItemListEnd
-    \resumeSubhead
-      {Tiki Corporation}{Jul. 2019 – Jan. 2020}
-      {Sofware Engineer of Search team}
+
+    \resumeSubheading
+      {Tiki Corporation}{Ha Noi, VietNam}
+      {Software Engineer}{Jul. 2019 - Jan. 2020}
       \resumeItemListStart
-        \resumeItem{Maintain legacy search system using PHP}
-        \resumeItem{Build an image search engine to help users find similar products with a single image from millions of products.}
+        \resumeItem{Image search}
+          {Build an image search engine to help users find similar products from a single image within millions of products.}
+        \resumeItem{Language/Technology}
+          {Python}
       \resumeItemListEnd
-    \resumeSubhead
-      {Game Studio North – VNG Corporation}{Jul. 2018 – Sep. 2018}
-      {Associate Sofware Engineer of Game mobile}
+
+    \resumeSubheading
+      {Game Studio North - VNG Corporation}{Ha Noi, VietNam}
+      {Associate Sofware Engineer of Game mobile}{Jul. 2018 - Sep. 2018}
       \resumeItemListStart
-        \resumeItem{Language/Technology: \textbf{JavaScript} \& \textbf{Java}.}
-        \resumeItem{Build a mobile game for thousand of users concurrency}
+        \resumeItem{Farmery game}
+          {Build a mobile game for thousand of users concurrency}
+        \resumeItem{Language/Technology}
+          {JavaScript \& Java}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
-%----------SKILLS-----------------
-% \section{Skills}
+
+%-----------PROJECTS-----------------
+% \section{Projects}
 %   \resumeSubHeadingListStart
-%     \resumeSubheadTwo
-%         {Experience}{Golang}
-%     \resumeSubheadTwo
-%         {Competitive}{C++}
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
 %   \resumeSubHeadingListEnd
 
-%-----------AWARDS----------
-% \section{Achievements and Awards}
-%   \resumeSubHeadingListStart
-%   \resumeSubHeadingListEnd
-
-% %----------PERSONAL RECORDS------------
-% \section{Personal records}
-%   \resumeSubHeadingListStart
-%     \resumeSubheadTwo
-%       {Codeforce}{Contest rating: expert, 1727}
 %
-%     \resumeSubheadTwo
-%       {Leetcode}{Questions solved: 124 / 1220}
-%   \resumeSubHeadingListEnd
-
-%----------PERSONAL PROJECTS------------
-%\section{Personal projects}
-%  \resumeSubHeadingListStart
-%    \item[]
-%  \resumeSubHeadingListEnd
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{Golang, Python}
+    \resumeSubItem{Competitive languages}{C++}
+    \resumeSubItem{Technologies}{Kafka, MySql, Redis}
+ \resumeSubHeadingListEnd
 
 
-%----------ACTIVITIES------------
-\section{Activities}
-  \resumeSubHeadingListStart
-    \resumeSubheadTwo
-      {ACM/ICPC Regional Contests}{2015, 2018}
-      \resumeItemListStart
-        \resumeItem{\textbf{First prize} of 2017 ACM/ICPC Hanoi Regional}
-      \resumeItemListEnd
-    \resumeSubheadTwo
-      {Teaching Algorithms and Programming at High School.}{June. 2015, June. 2016}
-    \resumeSubheadTwo
-      {Third prize of Vietnam National Olympiad in Informatics for High School students}{2014}
-
-  \resumeSubHeadingListEnd
-
-
-%-----------EDUCATION------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubhead
-      {University of Engineering and Technology - Vietnam National University}{Sep. 2015 -- Jan. 2020}
-      {Major: Computer Science;}
-  \resumeSubHeadingListEnd
-
+%-------------------------------------------
 \end{document}
