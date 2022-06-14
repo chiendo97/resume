@@ -1,0 +1,168 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheadTwo}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubhead}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\normalsize#3}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\link}[2]{{\color{blue}\href{#1}{#2}}}
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%              CV STARTS HERE              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\huge Le Tien Chien} & Email: \href{mailto:chiendo97@gmail.com}{chiendo97@gmail.com}\\
+  & Mobile: +84 96 90 42 306
+\end{tabular*}
+
+
+%----------SUMMARY-----------------
+\section{Summary}
+  \resumeSubHeadingListStart
+    \item[]
+      \resumeItemListStart
+        \resumeItem{Associate Sofware Engineer of Game Studio North – VNG Corporation in 2017 \& 2018}
+        \resumeItem{\textbf{First prize} of 2017 ACM/ICPC Hanoi Regional}
+        \resumeItem{Experience with C++, JavaScript, Python \& React}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+      {Game Studio North – VNG Corporation}{Dec. 2017 – Sep. 2018}
+      {Associate Sofware Engineer of Game mobile}
+      \resumeItemListStart
+        \resumeItem{Build a game server for mobile game based on company's framework.}
+        \resumeItem{Language/Technology: \textbf{JavaScript} \& \textbf{Java}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS----------
+\section{Achievements and Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadTwo
+      {ACM/ICPC Regional Contests}{2015, 2018}
+      \resumeItemListStart
+        \resumeItem{\textbf{Third prize} of 2015 ACM/ICPC Vietnam National Programming Contest.}
+        \resumeItem{\textbf{Second prize} of 2016 ACM/ICPC Vietnam National Programming Contest.}
+        \resumeItem{\textbf{First prize} of 2017 ACM/ICPC Hanoi Regional \& \textbf{Third prize} in the 2017 ACM/ICPC Ho Chi Minh Regional.}
+        \resumeItem{\textbf{Third prize} of 2018 ACM/ICPC Vietnam National Programming Contest.}
+        
+      \resumeItemListEnd
+
+    \resumeSubheadTwo
+      {Third prize of in Vietnam National Olympiad in Informatics  for High School students}{2014}
+      \resumeItemListStart
+        \resumeItem{Competed individually to solve 4 algorithmic problems in 3 hours using C++.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%----------PERSONAL RECORDS------------
+\section{Personal records}
+  \resumeSubHeadingListStart
+    \item[]
+  \resumeSubHeadingListEnd
+
+%----------PERSONAL PROJECTS------------
+\section{Personal projects}
+  \resumeSubHeadingListStart
+    \item[]
+  \resumeSubHeadingListEnd
+
+
+%----------ACTIVITIES------------
+\section{Activities}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadTwo
+      {Teacher of Phan Boi Chau High School}{June. 2015, June. 2016}
+      \resumeItemListStart
+        \resumeItem{Teaching Algorithms and Programming for students at High School for Gifted Students in Nghe An Province (Phan Boi Chau High School).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+      {University of Engineering and Technology - Vietnam National University}{Sep. 2015 -- Jan. 2020}
+      {Student of Computer Science;}
+
+  \resumeSubHeadingListEnd
+
+\end{document}
