@@ -3,8 +3,9 @@
 #let cvdata = yaml("LeTienChien.yml")
 
 #let uservars = (
-    headingfont: "Linux Libertine",
-    bodyfont: "Linux Libertine",
+    headingfont: "Times New Roman",
+    bodyfont: "Times New Roman",
+    font: "Times New Roman",
     fontsize: 10pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
     showAddress: true, // true/false show address in contact info
@@ -69,7 +70,7 @@
 #cveducation(cvdata)
 // #cvaffiliations(cvdata)
 // #cvprojects(cvdata)
-// #cvawards(cvdata)
+#cvawards(cvdata)
 // #cvcertificates(cvdata)
 // #cvpublications(cvdata)
 #cvskills(cvdata)

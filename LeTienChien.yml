@@ -15,41 +15,42 @@ personal:
       username: chiendo97
       url: https://github.com/chiendo97
 work:
-  - organization: WorldQuant, LLC - AI Tech Team
-    url: null
+  - organization: WorldQuant, LLC - AI-Tech Team
+    url:
     location: Hanoi, Vietnam
     positions:
       - position: Senior Engineer
         startDate: 2022-11-01
         endDate: "Present"
         highlights:
-          - "*AI Platform* - Develop an AI Platform to assist users in creating and enhancing their AI models"
-          - "*OpenAI Platform* - Manage a Gateway Backend for users to access OpenAI functionality"
-          - "*Language/Technology* - Python, Posgres, CockroachDB, Redis and other internal tools"
-  - organization: Shopee Pte Ltd - PaidAds team
-    url: null
+          - "*AI Platform* - Develop an AI Platform to empower users in building, enhancing, and deploying AI models for production environments"
+          - "*OpenAI Platform* - Maintain a Gateway System to facilitate user access to OpenAI APIs while implementing token counter functionality"
+          - "*Language/Technology* - Python, Golang, Posgres, CockroachDB, Redis and other internal tools"
+  - organization: Shopee Pte Ltd - PaidAds Team
+    url:
     location: Singapore, Singapore
     positions:
       - position: Senior Software Engineer
         startDate: 2020-02-01
         endDate: 2022-10-01
         highlights:
-          - "*Tracking system* - Build a tracking system that handles 200k users' events from all platforms using Kafka as a message queue"
-          - "*Deduction system* - Develop a deduction system capable of managing thousands of users' clicks using Kafka and MySQL"
-          - "*Cache cloud client library* - Create a Golang library that enables get/set operations on data within internal Redis clusters with features like local caching, circuit breaker, load balancing, and server discovery"
-          - "*Language/Technology* - Golang, MySQL, Kafka, and Redis"
-  - organization: Tiki Corporation - Search team
-    url: null
+          - "*Bidding system* - Maintain a ads bidding system that calculates bidding price for millions of Advertisement in half real-time based on users' activities"
+          - "*Tracking system* - Build a tracking system that handles 200k users' event from all platforms using Kafka"
+          - "*Deduction system* - Build a deduction system that comsumes thousand of users' clicks using Kafka and MySQL"
+          - "*Cache cloud SDK* - Build a Golang SDK that supports get/set data into internal Redis clusters with local-caching, circuit-breaker, load-balancing and server-discovery"
+          - "*Language/Technology* - Golang, MySQL, Kafka & Redis"
+  - organization: Tiki Corporation - Search Team
+    url:
     location: Ha Noi, Vietnam
     positions:
       - position: Software Engineer
         startDate: 2019-07-01
         endDate: 2020-01-31
         highlights:
-          - "*Image search* - Develop an advanced image search engine to assist users in discovering similar products from a vast database of millions of items"
+          - "*Image search* - Build an image search engine to find similar products with a single image from millions of products pool"
           - "*Language/Technology* - Python"
   - organization: VNG Corporation - Game Studio North
-    url: null
+    url:
     location: Ha Noi, Vietnam
     positions:
       - position: Software Engineer
@@ -60,7 +61,7 @@ work:
           - "*Language/Technology* - JavaScript & Java"
 education:
   - institution: University of Engineering and Technology - Vietnam National University
-    url: null
+    url:
     area: Computer Science
     studyType: Bachelor of Science
     startDate: 2015-09-01
@@ -69,8 +70,7 @@ education:
     honors:
     courses:
     highlights:
-      - Top 5 2017 ACM/ICPC Hanoi Regional
-      - Third prize of Vietnam National Olympiad in Informatics for High-School students
+
 # affiliations:
 #   - organization: White Hat Hackers Association
 #     position: Vice President for Internal Affairs
@@ -93,21 +93,19 @@ education:
 #       - Promising Toastmaster of the Year (PY 2022-2023)
 #       - Tell me, pray, what explanation do you put upon their actions?
 
-# awards:
-#   - title: Champion in the Division A District X Speech Evaluation Contest
-#     date: 2023-05-09
-#     issuer: Toastmasters International
-#     url:
-#     location: City of London, United Kingdom
-#     highlights:
-#   - title: "Finalist in the 2020 SCG Bangkok Business Challenge Global Competition"
-#     date: 2020-07-12
-#     issuer: Sasin School of Management
-#     url:
-#     location: Bangkok, Thailand
-#     highlights:
-#       - "Made it to the Top 5 (selected from over 100 teams) in the world for the semi-finals of the SCG Bangkok Business Challenge #sym.at Sasin 2020 Global Competition held at Bangkok, Thailand from July 7-12, 2020."
-#       - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
+awards:
+  - title: Top 5 2017 ACM/ICPC Hanoi Regional
+    date: 2017-05-01
+    issuer: International Collegiate Programming Contest
+    url:
+    location: Hanoi, Vietnam
+    highlights:
+  - title: Third prize of Vietnam National Olympiad in Informatics for High-School students
+    date: 2014-02-01
+    issuer: Vietnam National Olympiad in Informatics
+    url:
+    location: Hanoi, Vietnam
+    highlights:
 
 # certificates:
 #   - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
@@ -154,9 +152,10 @@ interests:
   - Video Games
   - Mechanical Keyboard
   - Smart Home
-references:
-  # You can comment out the entries below if you don't have any references
-  # The same goes for the publications
-  - name: Dr. Jane Austin
-    reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
-    url: https://janeaustin.com
+
+# references:
+#   # You can comment out the entries below if you don't have any references
+#   # The same goes for the publications
+#   - name: Dr. Jane Austin
+#     reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+#     url: https://janeaustin.com
