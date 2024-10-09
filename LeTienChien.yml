@@ -15,7 +15,7 @@ personal:
       username: chiendo97
       url: https://github.com/chiendo97
 work:
-  - organization: WorldQuant, LLC - AI-Tech Team
+  - organization: WorldQuant, LLC - AITech Team
     url:
     location: Hanoi, Vietnam
     positions:
@@ -23,9 +23,9 @@ work:
         startDate: 2022-11-01
         endDate: "Present"
         highlights:
-          - "*AI Platform* - Develop an AI Platform to empower users in building, enhancing, and deploying AI models for production environments"
-          - "*OpenAI Platform* - Maintain a Gateway System to facilitate user access to OpenAI APIs while implementing token counter functionality"
-          - "*Language/Technology* - Python, Golang, Posgres, CockroachDB, Redis and other internal tools"
+          - "*AI-Platform* - Build an AI Platform enabling users to create, train, and deploy Deep Learning models for making AI alphas, which are WorldQuant's most valuable assets."
+          - "*LLM Platform* - Develope a gateway to streamline user access to Large Language Models (LLMs), incorporating token counting, token-based rate limiting, and comprehensive model usage logging functionality"
+          - "*Language/Technology* - Python, Golang, CockroachDB & Redis"
   - organization: Shopee Pte Ltd - PaidAds Team
     url:
     location: Singapore, Singapore
@@ -34,10 +34,10 @@ work:
         startDate: 2020-02-01
         endDate: 2022-10-01
         highlights:
-          - "*Bidding system* - Maintain a ads bidding system that calculates bidding price for millions of Advertisement in half real-time based on users' activities"
-          - "*Tracking system* - Build a tracking system that handles 200k users' event from all platforms using Kafka"
-          - "*Deduction system* - Build a deduction system that comsumes thousand of users' clicks using Kafka and MySQL"
-          - "*Cache cloud SDK* - Build a Golang SDK that supports get/set data into internal Redis clusters with local-caching, circuit-breaker, load-balancing and server-discovery"
+          - "*Bidding system* - Maintain advertisement bidding system that calculates bidding price for *millions* of Advertisement in near real-time based on users' activities"
+          - "*Tracking system* - Build a tracking system that handles *200k* users' event in real-time from all Shopee platforms (mobile-apps, web-apps, etc..) using Kafka"
+          - "*Deduction System*: Developed a high-performance deduction system processing *thousands* of transactions per second based on user interactions utilizing Kafka and MySQL"
+          - "*Cache Cloud SDK*: Developed a Redis library for internal Redis clusters using Golang, incorporating features such as local cache, circuit breaking, auto load balancing, and server discovery"
           - "*Language/Technology* - Golang, MySQL, Kafka & Redis"
   - organization: Tiki Corporation - Search Team
     url:
@@ -57,7 +57,7 @@ work:
         startDate: 2018-01-01
         endDate: 2019-01-01
         highlights:
-          - "*Farmery Game* - Develop a scalable mobile app/server capable of handling thousands of concurrent users."
+          - "*Farmery Game* - Develop a scalable mobile app/server capable of handling *hundreds* of concurrent users."
           - "*Language/Technology* - JavaScript & Java"
 education:
   - institution: University of Engineering and Technology - Vietnam National University
@@ -70,7 +70,6 @@ education:
     honors:
     courses:
     highlights:
-
 # affiliations:
 #   - organization: White Hat Hackers Association
 #     position: Vice President for Internal Affairs
@@ -92,7 +91,6 @@ education:
 #       - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
 #       - Promising Toastmaster of the Year (PY 2022-2023)
 #       - Tell me, pray, what explanation do you put upon their actions?
-
 awards:
   - title: Top 5 2017 ACM/ICPC Hanoi Regional
     date: 2017-05-01
@@ -106,7 +104,6 @@ awards:
     url:
     location: Hanoi, Vietnam
     highlights:
-
 # certificates:
 #   - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
 #     date: 2021-09-01
@@ -129,6 +126,11 @@ awards:
 #       - Created an AI-powered resume editor application that allowed users to easily create different resumes and cover letters specifically tailored to and customized for individual job descriptions based on their personal information in their complete curriculum vitae.
 #       - Acquired more than 100,000 user sign ups in 3 months and more than 10,000 active monthly users.
 #       - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
+languages:
+  - language: Vietnamese
+    fluency: Native Speaker
+  - language: English
+    fluency: Intermediate Level
 skills:
   - category: Programming
     skills:
@@ -136,23 +138,11 @@ skills:
       - Golang
   - category: Tools
     skills:
-      - Git
-      - Docker
       - Vim/Neovim
-  - category: Backend Development
-    skills:
-      - FastAPI
-      - gRPC
-languages:
-  - language: Vietnamese
-    fluency: Native Speaker
-  - language: English
-    fluency: Intermediate Level
 interests:
   - Video Games
   - Mechanical Keyboard
   - Smart Home
-
 # references:
 #   # You can comment out the entries below if you don't have any references
 #   # The same goes for the publications

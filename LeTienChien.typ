@@ -6,11 +6,14 @@
     headingfont: "Times New Roman",
     bodyfont: "Times New Roman",
     font: "Times New Roman",
-    fontsize: 10pt, // 10pt, 11pt, 12pt
+    fontsize: 11pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
+    sectionspacing: 0pt,
     showAddress: true, // true/false show address in contact info
     showNumber: true,  // true/false show phone number in contact info
-    headingsmallcaps: false
+    showTitle: true,   // true/false show title in heading
+    headingsmallcaps: false, // true/false use small caps for headings
+    sendnote: false, // set to false to have sideways endnote
 )
 
 // setrules and showrules can be overridden by re-declaring it here
